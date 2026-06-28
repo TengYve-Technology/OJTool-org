@@ -1,0 +1,38 @@
+# Trae IDE 规划文档（不发布）
+.trae/
+
+# Git 配置（不发布）
+.gitignore
+.git/
+
+# Node.js lock 文件
+package-lock.json
+
+# 根目录多余的编译产物
+judger.exe
+评测机v0.0.3-CUI.exe
+
+# npm pack 产物
+*.tgz
+
+# 评测结果文件（测试产物）
+*_out.txt
+
+# 日志文件
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 配置
+.vscode/
+.idea/
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+
+# 源码（保留 C++ 源文件，但排除根目录 exe）
+# 注意：bin/judger.exe 需要发布，所以不排除

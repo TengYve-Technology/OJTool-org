@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "gppPath": "g++",
+  "problemPrefix": "sum",
+  "testCaseCount": 3,
+  "timeLimitMs": 1000,
+  "scorePerCase": 10,
+  "cppVersion": 17,
+  "compileFlags": "-O2 -Wall",
+  "outputLimitKb": 1024,
+  "playerCount": 2,
+  "basePath": "./Example/",
+  "directories": {
+    "input": "./data/in",
+    "output": "./data/out",
+    "answer": "./data/ans",
+    "temp": "./temp"
+  }
+}

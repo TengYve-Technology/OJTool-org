@@ -1,0 +1,22 @@
+{
+  "name": "OJTool",
+  "version": "1.0.0",
+  "description": "命令行代码评测工具",
+  "main": "src/index.js",
+  "bin": {
+    "ojtool": "./bin/ojtool.js",
+    "ojt": "./bin/ojtool.js"
+  },
+  "scripts": {
+    "preinstall": "node -e \"try{require('child_process').execSync('g++ -o bin/judger.exe judger.cpp -std=c++17 -O2 -static 2>&1',{stdio:'inherit'});}catch(e){console.log('⚠️ 编译失败，请手动编译：g++ -o bin/judger.exe judger.cpp -std=c++17 -O2 -static');}\"",
+    "dev": "node bin/ojtool.js"
+  },
+  "keywords": ["judge", "oj", "c++", "online-judge"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "inquirer": "^8.2.6"
+  }
+}
