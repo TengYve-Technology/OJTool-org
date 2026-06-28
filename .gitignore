@@ -6,8 +6,8 @@ node_modules/
 package-lock.json
 
 # 编译产物（根目录）
-judger.exe
-评测机v0.0.3-CUI.exe
+/judger.exe
+/评测机v0.0.3-CUI.exe
 
 # npm pack 产物
 *.tgz

@@ -8,9 +8,12 @@
 # Node.js lock 文件
 package-lock.json
 
-# 根目录多余的编译产物
-judger.exe
-评测机v0.0.3-CUI.exe
+# 根目录多余的编译产物（bin/judger.exe 需要发布）
+/judger.exe
+/评测机v0.0.3-CUI.exe
+
+# 明确包含 bin/judger.exe（必须发布）
+!bin/judger.exe
 
 # npm pack 产物
 *.tgz
